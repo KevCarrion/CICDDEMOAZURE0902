@@ -250,6 +250,7 @@ jobs:
         }
         EOF
         
+        #Testing notes
         # Crear el workflow
         create_response=$(curl -s -X POST \
           -H "Authorization: Bearer $DEST_TOKEN" \
